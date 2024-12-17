@@ -1,0 +1,73 @@
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+        .banner {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 20px auto;
+            max-width: 1200px;
+            gap: 20px;
+        }
+        .container .column {
+            flex: 1;
+            max-width: 300px;
+        }
+        .container .column video {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .hobby-section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .hobby-section h2 {
+            color: #F33A6A;
+        }
+        .favorites h3 {
+            color: #E37383;
+        }
+        .favorites ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .favorites ul li {
+            margin: 10px 0;
+        }
+        .favorites ul li a {
+            text-decoration: none;
+            color: #1d70b8;
+        }
+        .favorites ul li a:hover {
+            text-decoration: underline;
+            color: #F33A6A;
+        }
+        .back-to-top {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .back-to-top a img {
+            width: 150px;
+            height: 50px;
+        }
+        .home-button {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .home-button a img {
+            width: 150px;
+            height: 50px;
+        }
